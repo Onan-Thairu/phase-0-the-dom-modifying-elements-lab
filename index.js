@@ -1,7 +1,7 @@
-// let element = document.createElement('h1')
-// element.id = "victory"
-// document.body.append(element)
+let h1 = document.createElement('h1')
+h1.id = "victory"
+document.body.appendChild(h1)
 
-let newHeader = document.getElementById('victory')
+let newHeader = document.querySelector('h1#victory')
 
-newHeader.textContent = 'Onan is the GOAT!'
+newHeader.textContent = 'Onan is the champion!'
